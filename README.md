@@ -1,3 +1,3 @@
 # Typewriter
 
-![Typewriter](https://github.com/cmicheledelaney/Typewriter/blob/master/typewriter.gif)
+![Typewriter](https://github.com/micheledelaney/Typewriter/blob/master/typewriter.gif)
