@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Lucida Sans Typewriter,Lucida Console,monaco,Bitstream Vera Sans Mono,monospace;
+}
+
+.typewriter {
+  white-space:pre-wrap;
+}
+
+.typewriterCursor {
+  border-right: 0.08em solid white;
+}
+
+.bold {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.thin {
+  font-weight: 200;
+}
+
