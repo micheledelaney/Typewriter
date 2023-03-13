@@ -4,7 +4,7 @@ var Typewriter = function(element, period) {
         this.classes = JSON.parse(element.getAttribute('data-typewriter-classes'));
         this.period = period;
         this.index = 0;
-        this.stringIndex = 1;
+        this.stringIndex = 0;
         this.type();
     };
 
@@ -26,7 +26,7 @@ var Typewriter = function(element, period) {
         this.element.appendChild(typeSpanCurrent);
         if (this.stringIndex == this.strings[this.index].length) {
             this.index += 1;
-            this.stringIndex = 1;
+            this.stringIndex = 0;
         } else {
             this.stringIndex += 1;
         }
